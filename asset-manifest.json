@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Weather-Pollution-App/static/css/main.05f1b31f.css",
+    "main.js": "/Weather-Pollution-App/static/js/main.8def0b17.js",
+    "static/js/787.df6a4496.chunk.js": "/Weather-Pollution-App/static/js/787.df6a4496.chunk.js",
+    "static/media/background.jpg": "/Weather-Pollution-App/static/media/background.fbba93ca2241780ec8ba.jpg",
+    "static/media/ClashGrotesk-Regular.ttf": "/Weather-Pollution-App/static/media/ClashGrotesk-Regular.4a7d0a7e0185e0218b72.ttf",
+    "index.html": "/Weather-Pollution-App/index.html",
+    "main.05f1b31f.css.map": "/Weather-Pollution-App/static/css/main.05f1b31f.css.map",
+    "main.8def0b17.js.map": "/Weather-Pollution-App/static/js/main.8def0b17.js.map",
+    "787.df6a4496.chunk.js.map": "/Weather-Pollution-App/static/js/787.df6a4496.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05f1b31f.css",
+    "static/js/main.8def0b17.js"
+  ]
+}
