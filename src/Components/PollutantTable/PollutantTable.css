@@ -1,0 +1,49 @@
+.pollutant-table-container{
+    width: 100%; /* or a percentage that ensures it fits within the viewport */
+  margin: 0 auto; /* Center the container horizontally */
+  overflow-x: hidden;
+  padding: 20px;
+    align-items: center;
+   
+}
+
+.pollutant-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 2em;
+    min-width: 400px;
+}
+
+.pollutant-table thead tr{
+    font-weight: bold;
+}
+
+.pollutant-table th, .pollutant-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .pollutant-table th {
+    background-color: #f2f2f2;
+  }
+
+.Good{
+    color: #006400;
+}
+
+.Fair{
+    color: #ADFF2F;
+}
+
+.Moderate{
+    color: #FFFF00;
+}
+
+.Poor{
+    color: #FF4500;
+}
+
+.Very-Poor{
+    color: #8B0000;
+}
