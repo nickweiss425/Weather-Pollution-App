@@ -50,7 +50,7 @@ const SearchInput = ({ setSearchResults }) => {
     <div className="search-bar">
       <input
         className="search-bar"
-        placeholder="Search for cities..."
+        placeholder="search for cities..."
         value={searchInput}
         onChange={handleSearchChange}
       />
