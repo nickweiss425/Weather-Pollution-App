@@ -1,31 +1,39 @@
 .pollutant-table-container{
-    width: 100%; /* or a percentage that ensures it fits within the viewport */
-  margin: 0 auto; /* Center the container horizontally */
   overflow-x: hidden;
   padding: 20px;
-    align-items: center;
-   
+  width: 80%;
+  margin: 0 auto;
 }
 
 .pollutant-table{
-    width: 100%;
     border-collapse: collapse;
     font-size: 2em;
-    min-width: 400px;
+    min-width: 100%;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.30);
 }
 
 .pollutant-table thead tr{
     font-weight: bold;
+    background-color: #403443;
+    color: white;
+    
+}
+
+.pollutant-table td {
+    background: rgba(255,255,255,0.2);
+}
+
+.pollutant-table tbody tr:last-of-type{
+    border-bottom: 10px solid #403443;
+    
 }
 
 .pollutant-table th, .pollutant-table td {
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #403443;
     padding: 8px;
     text-align: left;
-  }
-  
-  .pollutant-table th {
-    background-color: #f2f2f2;
   }
 
 .Good{

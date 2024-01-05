@@ -28,7 +28,7 @@ export const PollutantTable = ({ pollutantData }) => {
         <thead className="table-headers">
           <tr>
             <th>Pollutant</th>
-            <th>Concentration</th>
+            <th>Concentration (μg/m<sup>3</sup>)</th>
             <th>Condition</th>
           </tr>
         </thead>
