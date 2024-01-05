@@ -7,7 +7,7 @@ export const SearchOptionList = ({
   searchResults,
   setSelectedWeatherData,
   setSelectedCity,
-  setSelectedPollutant
+  setSelectedPollutant,
 }) => {
   const handleCityClick = (value) => {
     setSelectedCity(value.name);
@@ -15,8 +15,7 @@ export const SearchOptionList = ({
     const lon = value.longitude;
     const lat = value.latitude;
     const weather_api_url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=425694789a9d13d7f0df8989f8fe2d2b`;
-    const pollutant_api_url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=425694789a9d13d7f0df8989f8fe2d2b`;
-
+    const pollutant_api_url = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=425694789a9d13d7f0df8989f8fe2d2b`;
 
     // Fetching Weather Data
     axios
@@ -29,9 +28,8 @@ export const SearchOptionList = ({
         console.error("Error fetching data from Weather API", error);
       });
 
-
-      // Fetching Pollutant Data
-      axios
+    // Fetching Pollutant Data
+    axios
       .get(pollutant_api_url)
       .then((response) => {
         console.log(response.data);
@@ -40,8 +38,6 @@ export const SearchOptionList = ({
       .catch((error) => {
         console.error("Error fetching data from Pollutant API", error);
       });
-
-
   };
 
   return (
